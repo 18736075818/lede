@@ -1087,10 +1087,11 @@ TARGET_DEVICES += youku_yk1
 
 define Device/yukai_bocco
   SOC := mt7620a
-  IMAGE_SIZE := 7872k
+  #IMAGE_SIZE := 7872k
+  IMAGE_SIZE := 15872k
   DEVICE_VENDOR := YUKAI Engineering
   DEVICE_MODEL := BOCCO
-  DEVICE_PACKAGES := kmod-sound-core kmod-sound-mt7620 kmod-i2c-ralink
+  DEVICE_PACKAGES := kmod-sound-core kmod-sound-mt7620 kmod-i2c-ralink alsa-utils mpd mpc 
   SUPPORTED_DEVICES += bocco
 endef
 TARGET_DEVICES += yukai_bocco

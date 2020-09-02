@@ -21,7 +21,7 @@
 
 		wps {
 			label = "wps";
-			gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio1 1 GPIO_ACTIVE_LOW>;
 			linux,code = <KEY_RFKILL>;
 		};
 
